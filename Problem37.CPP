@@ -12,7 +12,7 @@ using namespace std;
         return Number;
     }
     
-    float SumNumbers()
+    float SumOfNumbers()
     {
        int  sum = 0 , Number = 0, counter = 1;    
       
@@ -34,7 +34,7 @@ using namespace std;
     
      int main()
      {
-         cout << SumNumbers() << "Result = "<< endl;
+         cout << SumOfNumbers() << "Result = "<< endl;
          
          return 0;
       } 
